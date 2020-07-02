@@ -1,0 +1,38 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+
+    background-color:black !important;
+    
+    }
+    .nav-link{
+        color:white !important; 
+    }
+    #logo{
+        color:white !important
+    }
+    #home-container{
+
+    margin-top: 25px;
+
+    }
+    .jumbotron{
+        background-image: asset-url('sincerely-media-tnC4LjY06fI-unsplash.jpg');
+        background-position: center center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+    html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: gray
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
