@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   resources :articles
   get 'signup', to: 'users#new'
   post 'users', to: 'users#create'
+  post 'edit',  to:'users#edit'
   resources :users, except: [:new]
 end
